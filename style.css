@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body{
+    background-color:#371B40;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color:#371B40;
+    color: white;
+}
+
+.menu {
+    color:white;
+    list-style: none;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+   
+}
+
+.brand span {
+    color: rgb(255, 0, 221);
+}
+
+.brand {
+    margin-top: -14px;
+}
+.navbar {
+display: flex;
+justify-content: space-between;
+padding: 2em;
+}
+
+.menu li{
+    list-style: none;
+    
+   
+
+}
+
+.menu a{
+    color: white;
+
+}
+
+.menu .inicio{
+    color: rgb(255, 0, 221);
+    cursor: pointer;
+}
+
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+.main img {
+    width: 500px;
+    border: 7px solid rgb(255, 0, 221);
+}
+
+h1 {
+    font-size: 3em;
+}
+
+span {
+    color: rgb(255, 0, 221);
+}
+.foto1{
+margin-left: 100px;
+width: 100px;
+}
+
+.soy{
+    color: rgb(255, 0, 221);
+}
+
+.sobremi{
+    background-color: rgb(94, 2, 81);
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    font-size: large;
+    
+}
+
+.sobremi img{
+    margin-left: 200px;
+    border: 7px solid rgb(255, 0, 221);
+    width: 380px;
+    
+}
+
+.infocontent{
+    font-size: large;
+}
+
+.ola{
+width: 300px;
+
+}
+.ola2{
+    width: 300px;
+    align-items: center;
+}
+
+.ola3{
+width: 300px;
+align-items: right;
+margin-left: 1000px;
+}
+
+.ool{
+    font-size: xx-large;
+}
